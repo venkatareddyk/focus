@@ -1,1 +1,16 @@
-hi  
+#! /bin/bash
+
+echo -e "Enther the name of the file :\c"
+
+read file_name
+# to find the file name
+
+
+if [ ! -f "$file_name" ]
+then
+echo "Condition is true"
+else
+echo "condition is false"
+fi
+
+
